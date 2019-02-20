@@ -48,4 +48,11 @@ public class User {
     public void setFolders(List<Folder> folders) {
         this.folders = folders;
     }
+
+    public List<File> getFiles(){
+        for(Folder folder: this.folders){
+            return folder.getFiles();
+        }
+        return null;
+    }
 }

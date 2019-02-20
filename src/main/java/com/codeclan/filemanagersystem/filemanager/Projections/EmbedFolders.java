@@ -10,4 +10,6 @@ import java.util.List;
 public interface EmbedFolders {
     String getName();
     List getFolders();
+    List getFiles();
+
 }

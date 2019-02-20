@@ -11,5 +11,4 @@ public interface EmbedFiles {
 
     String getTitle();
     User getUser();
-    List getfiles();
 }
